@@ -79,23 +79,19 @@ def inverse(matrix):
 
 if __name__ == '__main__':
 
-    print(bcolors.HEADER, "Date:19/2/24\n"
+    print("Date:19/2/24\n"
           "Group members: \n"
           "(1) name: Shulamit-mor-yossef. id: 206576977. \n"
           "(2) name: Zohar-monsonego. id: 214067662. \n"
           "(3) name: hodaya-shirazie. id: 213907785.\n"
-          "Git: https://github.com/shulamitmorjossef/test1\n"
+          "Git: https://github.com/shulamitmorjossef/test-1-shulamit\n"
           "Name: Shulamit Mor Yossef, 206576977.\n"
 
           "input: [[1, 1 / 2, 1 / 3]\n",
                       "       [1 / 2, 1 / 3, 1 / 4]\n",
                       "       [1 / 3, 1 / 4, 1 / 5]] \n"
-                      "The maximum norm of the matrix of coefficients in question 6 and the first three elementary matrices\n\n\n", bcolors.ENDC)
+                      "The maximum norm of the matrix of coefficients in question 6 and the first three elementary matrices\n\n\n")
 
-    #
-    # A_b = [[1, 1 / 2, 1 / 3, 1],
-    #        [1 / 2, 1 / 3, 1 / 4, 0],
-    #        [1 / 3, 1 / 4, 1 / 5, 0]]
 
     A_b_s = np.array([[1, 1 / 2, 1 / 3],
                       [1 / 2, 1 / 3, 1 / 4],
